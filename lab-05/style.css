@@ -19,7 +19,12 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header{
+    position: sticky;
+}
+
 /*header style with logo*/
+
 header img{
     float: left;
     margin-right: 25px;
@@ -110,4 +115,8 @@ a:visited{
 
 a:hover{
     color: green;
+}
+
+footer{
+    position: inherit;
 }
